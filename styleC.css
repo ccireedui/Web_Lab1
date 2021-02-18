@@ -1,0 +1,62 @@
+body{
+    font-size: 40px;
+    white-space: nowrap;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: Roboto, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+.table{
+	display: -webkit-flex;
+	flex-direction: row;
+	position: fixed;
+    top: 10px;
+    left: 10px;
+	bottom: 5px;
+	right: 5px;
+}
+.box{
+    height: 150px;
+    width: 90px;
+    background-color: #eeeff2;
+	border-left: 10px dotted #D0D0FF;
+    transition: width 1s, height 1s, transform 2s;
+}
+.gray{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    top: 10px;
+    left: 10px;
+}
+.gray:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.lgray{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    top: 10px;
+    left: 10px;
+}
+.lgray:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.lynch{
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    bottom: 5px;
+    right: 5px;
+}
+.lynch:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+.box:hover {
+    width: 10ex;
+    height: 15ex;
+    transform: rotate(360deg);
+}
